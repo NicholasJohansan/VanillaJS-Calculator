@@ -1,5 +1,5 @@
 
-let calculatorDisplayText = "";
+let calculatorDisplayText = "0";
 let firstNumber = "";
 let secondNumber = "";
 let selectedOperator = "";
