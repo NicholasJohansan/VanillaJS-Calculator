@@ -73,8 +73,6 @@ body, #container {
   background-color: var(--dark-color);
 }
 
-#buttons div button[disabled] {
-  background-color: var(--darker-color);
-  border-style: none;
-  flex-grow: 1;
+#buttons div button[data-operator]:focus {
+  background-color: var(--dark-color);
 }
